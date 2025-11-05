@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "demo-secret",
+  "Description": "DEMO_SECRET lab test pattern",
+  "StartLine": 1,
+  "EndLine": 1,
+  "StartColumn": 1,
+  "EndColumn": 53,
+  "Match": "REDACTED",
+  "Secret": "REDACTED",
+  "File": "secrets.txt",
+  "SymlinkFile": "",
+  "Commit": "492fa675f97e0dca5e29684e266fa800c79ce125",
+  "Link": "https://github.com/Beekeyy/DevOpsLabs/blob/492fa675f97e0dca5e29684e266fa800c79ce125/secrets.txt#L1",
+  "Entropy": 4.5085015,
+  "Author": "Daniil Boretskiy",
+  "Email": "marty-fisher@mail.ru",
+  "Date": "2025-11-05T19:14:29Z",
+  "Message": "Add secrets.txt with demo secrets",
+  "Tags": [],
+  "Fingerprint": "492fa675f97e0dca5e29684e266fa800c79ce125:secrets.txt:demo-secret:1"
+ }
+]

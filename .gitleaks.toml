@@ -1,0 +1,12 @@
+title = "Lab gitleaks config"
+
+[[rules]]
+id = "demo-secret"
+description = "DEMO_SECRET lab test pattern"
+# demo_ + UUID v4 (36 симв. 0-9a-f-)
+regex = '''(?i)DEMO_SECRET\s*=\s*demo_[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}'''
+keywords = ["DEMO_SECRET"]
+
+[allowlist]
+# чтобы спокойно показывать примеры и отчёты
+paths = ["README.md", "gitleaks-before.json", "gitleaks-after.json"]
